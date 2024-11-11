@@ -42,7 +42,7 @@ async function mailSender(to) {
     subject: "",
     html: `
       <h1>Attendence</h1>
-      <p>Tera bacha aaj nai aya</p>
+      <p>Absent</p>
       `,
   });
 
