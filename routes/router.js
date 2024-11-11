@@ -31,13 +31,13 @@ async function mailSender(to) {
     port: 465,
     secure: true,
     auth: {
-      user: "sameer.swain003@gmail.com",
-      pass: "ytcuoizvwwjnsvzl",
+      user: "userEmail@gmail.com",
+      pass: "passowrd",
     },
   });
 
   let info = await transporter.sendMail({
-    from: "sameer.swain003@gmail.com",
+    from: "fromemail@gmail.com",
     to: to,
     subject: "",
     html: `
